@@ -39,10 +39,7 @@ const HARDWARE_BACK_PRESS_EVENT: string = 'hardwareBackPress';
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    position: 'absolute',
-    top: 0,
-    left: 0,
+    marginTop: 20,
     justifyContent: 'center',
     alignItems: 'center',
   },
