@@ -10,6 +10,9 @@ import {
   BackHandler as RNBackHandler,
 } from 'react-native';
 
+// MARK: - Edit
+import KeyboardSpacer from 'react-native-keyboard-spacer';
+
 const BackHandler = RNBackHandler || RNBackAndroid;
 
 import Overlay from './Overlay';
@@ -210,6 +213,7 @@ class Dialog extends Component {
           {this.props.children}
           {this.props.actions}
         </Animated.View>
+        <KeyboardSpacer />
       </View>
     );
   }
