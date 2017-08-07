@@ -213,6 +213,7 @@ class Dialog extends Component {
           {this.props.children}
           {this.props.actions}
         </Animated.View>
+      { /* // MARK: - Edit */ }
         <KeyboardSpacer />
       </View>
     );
